@@ -1,0 +1,132 @@
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#3F51B5">
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#FFFCFC"
+
+            android:text="FACEBOOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_book_24" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_account_box_24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_account_box_24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="Your Story"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:text="Your Story"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:src="@drawable/baseline_account_circle_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:textSize="5dp"
+            android:layout_marginTop="10dp"
+            android:text="What is on your mind?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_account_box_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:text="User Name\n5 mins ago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:text="This Is a sample post"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="458dp"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="212dp"
+            android:src="@drawable/fit" />
+    </LinearLayout>
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:textColor="#3F51B5"
+        android:layout_marginTop="10dp"
+        android:text="Like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#3F51B5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#3F51B5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
+
